@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-17T10:50:15 IST" name="Suite" finished-at="2022-10-17T10:52:23 IST" duration-ms="127684">
+    <groups>
+    </groups>
+    <test started-at="2022-10-17T10:50:15 IST" name="Test" finished-at="2022-10-17T10:52:23 IST" duration-ms="127684">
+      <class name="Tests.LoginTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:Tests.LoginTest@aba625]" started-at="2022-10-17T10:50:15 IST" name="openApplication" finished-at="2022-10-17T10:51:20 IST" duration-ms="64659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@aba625]" started-at="2022-10-17T10:51:20 IST" name="login" data-provider="getLoginData" finished-at="2022-10-17T10:52:05 IST" duration-ms="44664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arun.selenium@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Second@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:Tests.LoginTest@aba625]" started-at="2022-10-17T10:52:05 IST" name="closure" finished-at="2022-10-17T10:52:05 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:Tests.LoginTest@aba625]" started-at="2022-10-17T10:52:05 IST" name="openApplication" finished-at="2022-10-17T10:52:08 IST" duration-ms="3651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@aba625]" started-at="2022-10-17T10:52:08 IST" name="login" data-provider="getLoginData" finished-at="2022-10-17T10:52:23 IST" duration-ms="14504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:Tests.LoginTest@aba625]" started-at="2022-10-17T10:52:23 IST" name="closure" finished-at="2022-10-17T10:52:23 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

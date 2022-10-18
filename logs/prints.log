@@ -1,0 +1,4 @@
+10:52:13.433 [TestNG-test=Test-1] DEBUG Tests.LoginTest - Clicked on Login Button
+10:52:23.500 [TestNG-test=Test-1] DEBUG Tests.LoginTest - User didn't log in
+10:52:23.501 [TestNG-test=Test-1] INFO  Tests.LoginTest - Login Test got passed
+10:52:23.568 [TestNG-test=Test-1] DEBUG Tests.LoginTest - Browser got closed
